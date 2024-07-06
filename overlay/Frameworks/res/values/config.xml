@@ -631,4 +631,19 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">motorola/hanoip_retail/hanoip:11/S2RI32.32-20-9-9-2/1591b:user/release-keys</string>
 
+     <!-- Build properties from a GMS certified device against current platform SPL level -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+
+       <item>"google"</item>
+       <item>"Google"</item>
+       <item>"sailfish"</item>
+       <item>"sailfish"</item>
+       <item>"Pixel"</item>
+       <item>"OPM1.171019.011"</item>
+       <item>"google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys"</item>
+       <item>"2017-12-05"</item>
+       <item>24</item>
+
+    </string-array>
+
 </resources>
