@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hanoip device
 $(call inherit-product, device/motorola/hanoip/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common PB stuff.
 $(call inherit-product, vendor/pb/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
